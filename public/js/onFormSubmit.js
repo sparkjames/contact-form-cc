@@ -10,8 +10,8 @@ $( "#contact-form" ).submit(function( e ) {
 
 	$.ajax({
 		type: 'POST',
-		// url: '/contact-form-cc/public/inc/formHandler.php',
-		url: '/inc/formHandler.php',
+		url: '/contact-form-cc/public/inc/formHandler.php',
+		// url: '/inc/formHandler.php',
 		data: this_form.serialize(),
 		dataType: 'json',
 		success: function(result){
