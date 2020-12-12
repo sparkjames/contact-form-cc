@@ -116,7 +116,39 @@
                 <h2>Contact Guy Smiley</h2>
                 <p>Remember Guy Smiley?  Yeah, he wants to hear from you.</p>
                 <p class="bg-primary">
-                    [[ This is where you'd put your contact form.  Get it done! ]]
+
+									<form action="" method="post" id="contact-form">
+
+										<div class="form-group">
+											<label for="full_name">Full Name</label>
+											<input type="text" class="form-control" name="full_name" id="full_name" placeholder="Enter full name&hellip;" required>
+										</div>
+
+										<div class="form-group">
+											<label for="email">Email address</label>
+											<input type="email" class="form-control" name="email" id="email" placeholder="Enter email address&hellip;" required>
+										</div>
+
+										<div class="form-group">
+											<label for="message">Your message</label>
+											<textarea class="form-control" name="message" id="message" placeholder="Enter your message&hellip;" required></textarea>
+										</div>
+
+										<div class="form-group">
+											<label for="phone">Phone number</label>
+											<input type="tel" class="form-control" name="phone" id="phone" placeholder="Enter your phone number&hellip;">
+										</div>
+=
+										<button class="btn btn-primary" type="submit">
+											<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+											Send
+										</button>
+
+										<div class="alert alert-success mt-3" role="alert" style="display:none;">
+											Your message has been sent, thank you.
+										</div>
+									</form>
+
                 </p>
             </div>
         </div>
@@ -145,7 +177,9 @@
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
     <!-- Theme JavaScript -->
-    <script src="js/grayscale.min.js"></script>
+		<script src="js/grayscale.min.js"></script>
+
+		<script src="js/onFormSubmit.js"></script>
 
 </body>
 
