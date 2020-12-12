@@ -147,6 +147,11 @@
 										<div class="alert alert-success mt-3" role="alert" style="display:none;">
 											Your message has been sent, thank you.
 										</div>
+
+										<div class="alert alert-danger mt-3" role="alert" style="display:none;">
+											There is something wrong on our end, please try again later.
+										</div>
+
 									</form>
 
                 </p>
