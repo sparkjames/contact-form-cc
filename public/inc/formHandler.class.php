@@ -9,7 +9,7 @@ class FormHandler {
 	protected $phone;
 	protected $errors = [];
 
-	public function __construct( $form_data ){
+	public function __construct( $form_data=[] ){
 		if( !isset( $form_data['full_name']) || !$form_data['full_name'] ){
 			$errors['full_name'] = 'You must enter your full name.';
 		} else {
