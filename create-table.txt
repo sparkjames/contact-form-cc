@@ -1,0 +1,8 @@
+CREATE TABLE `entries` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `full_name` tinytext,
+  `email` tinytext,
+  `email_message` text,
+  `phone` tinytext,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
