@@ -12,8 +12,8 @@ final class FormHandlerTest extends TestCase {
 
 	public function testProcessFormReturnsJSON(){
 
-		// require_once '../../../public/inc/formHandler.class.php';
-		require_once '../public/inc/formHandler.class.php';
+		require_once '../../../public/inc/formHandler.class.php';
+		// require_once '../public/inc/formHandler.class.php';
 
 		$sampleResponse = [
 			'successful_submit' => false,
